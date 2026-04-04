@@ -1,36 +1,95 @@
 # Data-Analyst-Pet-Project
-Data-Analyst pet SkillBox
+Data Analyst Portfolio Project
 
-## Credit Scoring Analysis
-Overview
+## Music Data Analysis Platform (API + SQL + Analytics)
+# Overview
 
-Analysis of bank customers to identify factors affecting loan repayment reliability.
+AThis project demonstrates a full-cycle data analysis workflow:
+from data collection via API to SQL analysis and business insights.
 
-Goal: find key drivers of default risk and support credit scoring improvements.
+Using the iTunes API, I collected music data for Louis Armstrong and built a structured dataset for further analytical tasks.
 
-# Key Questions
-Does the number of children affect repayment?
-How does marital status impact reliability?
-Is income level a strong predictor of default?
-Does loan purpose influence risk?
-# Data Preparation
-Filled missing values (days_employed, total_income) using median
-Fixed anomalies (negative employment days → absolute values)
-Removed duplicates and standardized categories
-Converted income to integer format
+The project simulates a real-world scenario where a Data Analyst works with external data sources, prepares data, and extracts insights for business decisions.
+# Business Goal
+Build a data pipeline and analyze music content to:
+
+- Structure raw API data into analytical datasets
+- Identify patterns in album releases
+- Simulate product and sales analysis using SQL
+- Generate insights applicable to media/content platforms
+# Data Collection (API)
+- Performed GET request to retrieve artist data
+- Extracted amgArtistId
+- Sent POST request to fetch album-level data
+- Collected 100+ records
+# Data Processing
+- Parsed JSON responses
+- Converted data into Pandas DataFrames
+- Cleaned and structured dataset
+- Removed non-relevant records (artist vs albums)
+- Exported data:
+   - .xlsx (reporting)
+   - .csv (analysis-ready format)
+# SQL Analysis
+After data collection, the dataset was used for SQL-based analysis:
+
+- Aggregated album data
+- Analyzed distribution of releases
+- Simulated revenue-style metrics:
+  - number of releases
+  - album frequency
+  - activity over time
+
+ Example tasks:
+
+- Identify most active periods
+- Count albums per category
+- Rank records using window functions
+# Product / Behavioral Analysis
+
+Simulated product analytics approach:
+
+- Analyzed “content production funnel” (artist → albums)
+- Evaluated distribution and density of releases
+- Identified irregularities in dataset structure
+
+Key idea:
+Treat albums as “products” and analyze them like a content platform
 # Key Insights
-- More children → higher default risk
-- Married clients → more reliable
-- Higher income → lower probability of default
-- Real estate loans → lowest risk, consumer loans → highest
-- Business Impact
-Improves customer risk segmentation
-Helps refine credit scoring models
-Supports better lending decisions
+API data may include mixed entity types → requires filtering
+- Content (albums) is unevenly distributed
+- Structured APIs still require preprocessing
+- Dataset can be reused for multiple analytical задач
+  
+# Business Impact
+
+This project demonstrates how to:
+- [x] Build datasets from external APIs
+- [x] Combine Python + SQL in one workflow
+- [x] Apply analytical thinking to real-world data
+- [x] Translate raw data into business insights
+
 # Tech Stack
 
-Python, Pandas, NumPy, Jupyter Notebook
+- Python
+- Requests
+- Pandas
+- SQL (PostgreSQL)
+- Jupyter Notebook
+- Git
 
-# Skills
+# Skills Demonstrated
+- API integration (REST)
+- Data extraction & transformation
+- SQL analysis (aggregations, joins, window functions)
+- Data cleaning
+- Product analytics thinking
+- End-to-end data workflow
+  
+# Why This Project Matters
+This project reflects real Data Analyst tasks:
 
-EDA • Data Cleaning • Data Analysis • Business Thinking
+- Working with external data sources
+- Preparing messy data
+- Combining tools (Python + SQL)
+- Generating insights for business use
