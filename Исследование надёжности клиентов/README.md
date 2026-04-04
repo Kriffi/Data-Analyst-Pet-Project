@@ -1,10 +1,6 @@
 # Data-Analyst-Pet-Project
-Data-Analyst Пет-проект на SkillBox
-В этом репозитории я собрал свои проекты. Они покажут вам, на что я способен.
+Data-Analyst pet SkillBox
 
-Описания проектов в README.md
-ИИсследование надёжности клиентов
-Описание проекта
 ## Credit Scoring Analysis
 Overview
 
