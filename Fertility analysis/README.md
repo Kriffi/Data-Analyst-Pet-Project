@@ -1,3 +1,12 @@
+## Screenshots
+
+- <img width="1932" height="1049" alt="image" src="https://github.com/user-attachments/assets/93cb0c8d-4f2e-4036-b30b-9a0dd82ce693" />
+  - <img width="1914" height="1094" alt="image" src="https://github.com/user-attachments/assets/29412023-ae31-4128-8581-5391dde20e37" />
+  - <img width="1902" height="1099" alt="image" src="https://github.com/user-attachments/assets/d33ad7e3-f765-491e-b7e1-c9c4472ec2e6" />
+- <img width="1953" height="930" alt="image" src="https://github.com/user-attachments/assets/d7e52af6-e7c2-476f-81bd-65852e7b0970" />
+
+---
+
 ## Project Overview
 
 This project is a complete data analytics case study focused on cleaning, integrating, and visualizing socio-economic data from various countries. The goal was to demonstrate professional data preparation and visualization skills using **Power BI** — without writing DAX — while applying left joins, fuzzy matching, data type corrections, and interactive dashboard design.
@@ -116,16 +125,3 @@ Kriffi
 ## Tech Stack Summary
 
 `SQL` • `Python (pandas)` • `Power BI` • `Power Query` • `Fuzzy Matching` • `Interactive Dashboards`
-##  Screenshots 
-- <img width="1932" height="1049" alt="image" src="https://github.com/user-attachments/assets/93cb0c8d-4f2e-4036-b30b-9a0dd82ce693" />
-  - <img width="1914" height="1094" alt="image" src="https://github.com/user-attachments/assets/29412023-ae31-4128-8581-5391dde20e37" />
-  - <img width="1902" height="1099" alt="image" src="https://github.com/user-attachments/assets/d33ad7e3-f765-491e-b7e1-c9c4472ec2e6" />
-- <img width="1953" height="930" alt="image" src="https://github.com/user-attachments/assets/d7e52af6-e7c2-476f-81bd-65852e7b0970" />
----
-
-
-
-
-
-
-
